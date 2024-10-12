@@ -18,7 +18,8 @@ from django.contrib import admin
 from django.urls import path
 
 from task2.views import index_class, index_func
-from task3.views import *
+
+from task4.views import *
 
 
 urlpatterns = [
