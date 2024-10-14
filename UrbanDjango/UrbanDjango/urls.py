@@ -20,7 +20,7 @@ from django.urls import path
 from task2.views import index_class, index_func
 
 from task4.views import *
-
+from task5.views import User_Register
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -29,4 +29,5 @@ urlpatterns = [
     path('platform/', Main_platform.as_view()),
     path('platform/games/', Games_Class.as_view()),
     path('platform/cart/', Cart_Class.as_view()),
+    path('registration/', User_Register.as_view()),
 ]
